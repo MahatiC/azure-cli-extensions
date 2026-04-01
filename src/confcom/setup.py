@@ -75,6 +75,7 @@ setup(
             "bin/genpolicy-linux",  # linux for AKS
             "bin/sign1util.exe",  # windows for cose tool
             "bin/sign1util",  # linux for cose tool
+            "bin/CimWriter.dll",  # windows for cimwriter.dll used for C-WCOW
             "data/*",
         ]
     },
