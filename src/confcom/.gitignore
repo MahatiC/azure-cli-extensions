@@ -32,12 +32,6 @@ azext_confcom/bin/*
 **/dmverity-vhd
 **/bin/genpolicy*
 
-# Exception: CimWriter.dll is required for Windows container support
-# Downloaded from Microsoft.Windows.CimWriter.amd64fre NuGet package
-# Version: 10.0.28552.1000-260402-1747.br-current-directbase-backport-cwcow
-# Source: https://msazure.visualstudio.com/One/_artifacts/feed/Microsoft.Windows.CimWriter.amd64fre@Local
-!azext_confcom/bin/CimWriter.dll
-
 # metadata file for coverage reports
 **/.coverage
 
